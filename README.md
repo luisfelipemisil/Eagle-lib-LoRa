@@ -1,2 +1,2 @@
 # Eagle-lib-LoRa
-Eagle cad pcb lib for lora1276 module.
+Eagle lib for the LoRa1276 module.
