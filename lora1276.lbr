@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -60,14 +60,12 @@
 <library>
 <packages>
 <package name="LORA1276">
-<wire x1="-7.62" y1="8.05" x2="-7.62" y2="-8.95" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-8.95" x2="9.18" y2="-8.95" width="0.127" layer="21"/>
-<wire x1="9.18" y1="-8.95" x2="9.18" y2="8.05" width="0.127" layer="21"/>
-<wire x1="9.18" y1="8.05" x2="-7.62" y2="8.05" width="0.127" layer="21"/>
-<pad name="P$1" x="-7.12" y="6.35" drill="0.55" diameter="1.016" shape="offset" rot="R180"/>
-<pad name="13" x="8.68" y="6.65" drill="0.55" diameter="1.27" shape="offset"/>
-<pad name="14" x="8.68" y="5.15" drill="0.55" diameter="1.27" shape="offset"/>
-<wire x1="9.28" y1="6.75" x2="9.28" y2="6.65" width="0.1524" layer="21"/>
+<wire x1="-7.63" y1="7.69" x2="-7.62" y2="-9.25" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-9.25" x2="9.710859375" y2="-9.242378125" width="0.127" layer="21"/>
+<wire x1="9.710859375" y1="-9.242378125" x2="9.708321875" y2="7.677940625" width="0.127" layer="21"/>
+<wire x1="9.708321875" y1="7.677940625" x2="-7.63" y2="7.69" width="0.127" layer="21"/>
+<pad name="13" x="9.17021875" y="6.5754" drill="0.55" diameter="1.27" shape="offset"/>
+<pad name="14" x="9.149896875" y="5.05" drill="0.55" diameter="1.27" shape="offset"/>
 <pad name="2" x="-7.06" y="5.06" drill="0.55" diameter="1.016" shape="offset" rot="R180"/>
 <pad name="3" x="-7.06" y="3.79" drill="0.55" diameter="1.016" shape="offset" rot="R180"/>
 <pad name="4" x="-7.06" y="2.52" drill="0.55" diameter="1.016" shape="offset" rot="R180"/>
@@ -79,28 +77,47 @@
 <pad name="10" x="-7.06" y="-5.1" drill="0.55" diameter="1.016" shape="offset" rot="R180"/>
 <pad name="11" x="-7.06" y="-6.37" drill="0.55" diameter="1.016" shape="offset" rot="R180"/>
 <pad name="12" x="-7.06" y="-7.64" drill="0.55" diameter="1.016" shape="offset" rot="R180"/>
-<pad name="1" x="-7.06" y="6.33" drill="0.55" diameter="1.016" shape="offset" rot="R180"/>
+<pad name="1" x="-7.06" y="6.23" drill="0.55" diameter="1.016" shape="offset" rot="R180"/>
 </package>
-<package name="LORA1276_SMD">
+<package name="LORA1276_BOTTOM">
 <wire x1="0" y1="1.7" x2="0" y2="-15.3" width="0.127" layer="21"/>
-<wire x1="0" y1="-15.3" x2="16.8" y2="-15.3" width="0.127" layer="21"/>
-<wire x1="16.8" y1="-15.3" x2="16.8" y2="1.7" width="0.127" layer="21"/>
-<wire x1="16.8" y1="1.7" x2="0" y2="1.7" width="0.127" layer="21"/>
-<wire x1="16.9" y1="0.4" x2="16.9" y2="0.3" width="0.1524" layer="21"/>
-<smd name="1" x="0" y="0" dx="2.1844" dy="1.0668" layer="1"/>
-<smd name="2" x="0" y="-1.27" dx="2.1844" dy="1.0668" layer="1"/>
-<smd name="3" x="0" y="-2.54" dx="2.1844" dy="1.0668" layer="1"/>
-<smd name="4" x="0" y="-3.81" dx="2.1844" dy="1.0668" layer="1"/>
-<smd name="5" x="0" y="-5.08" dx="2.1844" dy="1.0668" layer="1"/>
-<smd name="6" x="0" y="-6.35" dx="2.1844" dy="1.0668" layer="1"/>
-<smd name="7" x="0" y="-7.62" dx="2.1844" dy="1.0668" layer="1"/>
-<smd name="8" x="0" y="-8.89" dx="2.1844" dy="1.0668" layer="1"/>
-<smd name="9" x="0" y="-10.16" dx="2.1844" dy="1.0668" layer="1"/>
-<smd name="10" x="0" y="-11.43" dx="2.1844" dy="1.0668" layer="1"/>
-<smd name="11" x="0" y="-12.7" dx="2.1844" dy="1.0668" layer="1"/>
-<smd name="12" x="0" y="-13.97" dx="2.1844" dy="1.0668" layer="1"/>
-<smd name="13" x="17" y="0.4" dx="2.54" dy="1.27" layer="1"/>
-<smd name="14" x="17" y="-1.2" dx="2.54" dy="1.27" layer="1"/>
+<wire x1="0" y1="-15.3" x2="17.3" y2="-15.3" width="0.127" layer="21"/>
+<wire x1="17.3" y1="-15.3" x2="17.3" y2="1.7" width="0.127" layer="21"/>
+<wire x1="17.3" y1="1.7" x2="0" y2="1.7" width="0.127" layer="21"/>
+<smd name="1" x="17.526" y="0" dx="2.1844" dy="0.85" layer="16"/>
+<smd name="2" x="17.526" y="-1.27" dx="2.1844" dy="0.85" layer="16"/>
+<smd name="3" x="17.526" y="-2.54" dx="2.1844" dy="0.85" layer="16"/>
+<smd name="4" x="17.526" y="-3.81" dx="2.1844" dy="0.85" layer="16"/>
+<smd name="5" x="17.526" y="-5.08" dx="2.1844" dy="0.85" layer="16"/>
+<smd name="6" x="17.526" y="-6.35" dx="2.1844" dy="0.85" layer="16"/>
+<smd name="7" x="17.526" y="-7.62" dx="2.1844" dy="0.85" layer="16"/>
+<smd name="8" x="17.526" y="-8.89" dx="2.1844" dy="0.85" layer="16"/>
+<smd name="9" x="17.526" y="-10.16" dx="2.1844" dy="0.85" layer="16"/>
+<smd name="10" x="17.526" y="-11.43" dx="2.1844" dy="0.85" layer="16"/>
+<smd name="11" x="17.526" y="-12.7" dx="2.1844" dy="0.85" layer="16"/>
+<smd name="12" x="17.526" y="-13.97" dx="2.1844" dy="0.85" layer="16"/>
+<smd name="13" x="-0.78" y="0.4" dx="2.54" dy="1" layer="16"/>
+<smd name="14" x="-0.78" y="-1.2" dx="2.54" dy="1" layer="16"/>
+</package>
+<package name="LORA1276_TOP">
+<wire x1="0" y1="1.7" x2="0" y2="-15.3" width="0.127" layer="21"/>
+<wire x1="0" y1="-15.3" x2="17.3" y2="-15.3" width="0.127" layer="21"/>
+<wire x1="17.3" y1="-15.3" x2="17.3" y2="1.7" width="0.127" layer="21"/>
+<wire x1="17.3" y1="1.7" x2="0" y2="1.7" width="0.127" layer="21"/>
+<smd name="1" x="-0.254" y="0" dx="2.1844" dy="0.85" layer="1"/>
+<smd name="2" x="-0.254" y="-1.27" dx="2.1844" dy="0.85" layer="1"/>
+<smd name="3" x="-0.254" y="-2.54" dx="2.1844" dy="0.85" layer="1"/>
+<smd name="4" x="-0.254" y="-3.81" dx="2.1844" dy="0.85" layer="1"/>
+<smd name="5" x="-0.254" y="-5.08" dx="2.1844" dy="0.85" layer="1"/>
+<smd name="6" x="-0.254" y="-6.35" dx="2.1844" dy="0.85" layer="1"/>
+<smd name="7" x="-0.254" y="-7.62" dx="2.1844" dy="0.85" layer="1"/>
+<smd name="8" x="-0.254" y="-8.89" dx="2.1844" dy="0.85" layer="1"/>
+<smd name="9" x="-0.254" y="-10.16" dx="2.1844" dy="0.85" layer="1"/>
+<smd name="10" x="-0.254" y="-11.43" dx="2.1844" dy="0.85" layer="1"/>
+<smd name="11" x="-0.254" y="-12.7" dx="2.1844" dy="0.85" layer="1"/>
+<smd name="12" x="-0.254" y="-13.97" dx="2.1844" dy="0.85" layer="1"/>
+<smd name="13" x="18.27" y="0.4" dx="2.54" dy="1" layer="1"/>
+<smd name="14" x="18.27" y="-1.2" dx="2.54" dy="1" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -126,7 +143,29 @@
 <text x="-12.7" y="22.86" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="20.32" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="LORA1276_SMD">
+<symbol name="LORA1276_BOTTOM">
+<pin name="ANT" x="-17.78" y="15.24" length="middle" direction="in"/>
+<pin name="GND" x="-17.78" y="12.7" length="middle" direction="pwr"/>
+<pin name="GND1" x="17.78" y="15.24" length="middle" direction="pwr" rot="R180"/>
+<pin name="NC1" x="17.78" y="12.7" length="middle" direction="nc" rot="R180"/>
+<pin name="NC2" x="17.78" y="10.16" length="middle" direction="nc" rot="R180"/>
+<pin name="SCK" x="17.78" y="7.62" length="middle" direction="in" rot="R180"/>
+<pin name="MISO" x="17.78" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="MOSI" x="17.78" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="NSS" x="17.78" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="DIO2" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="DIO1" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="DIO0" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
+<pin name="VCC" x="17.78" y="-10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="RESET" x="17.78" y="-12.7" length="middle" direction="in" rot="R180"/>
+<text x="-12.7" y="22.86" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="20.32" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="LORA1276_TOP">
 <pin name="ANT" x="-17.78" y="15.24" length="middle" direction="in"/>
 <pin name="GND" x="-17.78" y="12.7" length="middle" direction="pwr"/>
 <pin name="GND1" x="17.78" y="15.24" length="middle" direction="pwr" rot="R180"/>
@@ -178,12 +217,40 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LORA1276_SMD">
+<deviceset name="LORA1276_BOTTOM">
 <gates>
-<gate name="G$1" symbol="LORA1276_SMD" x="0" y="0"/>
+<gate name="G$1" symbol="LORA1276_BOTTOM" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="LORA1276_SMD">
+<device name="" package="LORA1276_BOTTOM">
+<connects>
+<connect gate="G$1" pin="ANT" pad="13"/>
+<connect gate="G$1" pin="DIO0" pad="10"/>
+<connect gate="G$1" pin="DIO1" pad="9"/>
+<connect gate="G$1" pin="DIO2" pad="8"/>
+<connect gate="G$1" pin="GND" pad="14"/>
+<connect gate="G$1" pin="GND1" pad="1"/>
+<connect gate="G$1" pin="MISO" pad="5"/>
+<connect gate="G$1" pin="MOSI" pad="6"/>
+<connect gate="G$1" pin="NC1" pad="2"/>
+<connect gate="G$1" pin="NC2" pad="3"/>
+<connect gate="G$1" pin="NSS" pad="7"/>
+<connect gate="G$1" pin="RESET" pad="12"/>
+<connect gate="G$1" pin="SCK" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LORA1276_TOP">
+<gates>
+<gate name="G$1" symbol="LORA1276_BOTTOM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LORA1276_TOP">
 <connects>
 <connect gate="G$1" pin="ANT" pad="13"/>
 <connect gate="G$1" pin="DIO0" pad="10"/>
